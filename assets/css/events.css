@@ -1,0 +1,91 @@
+.page-events {
+  background-image: url("../images/events.jpg");
+}
+
+.events {
+  padding: 50px 0;
+}
+
+.events-item {
+  display: flex;
+  padding: 30px;
+  border-bottom: 1px solid var(--gray);
+}
+.events-item:hover {
+  background-color: #f1f1f1;
+}
+
+.events-image {
+  margin: 0 30px 0 0;
+}
+
+.events-header {
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.events-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primary);
+  margin: 0 0 20px;
+}
+
+.events-date {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.events-date i {
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.events-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.events-buy p {
+  margin: 20px 100px 0 0;
+}
+
+.events-description {
+  display: none;
+  padding-top: 30px;
+}
+
+.events-item:first-child .events-description {
+  display: block;
+}
+
+.events-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events-local {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.events-local i {
+  font-size: 30px;
+  color: var(--primary);
+  margin-right: 15px;
+}
+.events-local h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  letter-spacing: 3px;
+}
+.events-local address {
+  font-style: normal;
+  font-size: 14px;
+}

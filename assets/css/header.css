@@ -1,0 +1,28 @@
+.header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-menu a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+	transition: all .3s ease;
+}
+
+.header-menu a:hover {
+	color: var(--primary);
+}

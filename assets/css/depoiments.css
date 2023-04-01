@@ -1,0 +1,70 @@
+.page-depoiments {
+    background-image: url("../images/depoiments.jpg");
+}
+.depoiments {
+    background: var(--primary);
+    padding: 80px 0;
+}
+
+.depoiments-item {
+    text-align: center;
+    outline: none;
+}
+.depoiments-header {
+    text-align: center;
+}
+.depoiments-header img{
+    display: inline-block;
+}
+
+.depoiments-title {
+    position: relative;
+    font-size: 48px;
+    display: inline-block;
+    margin: 0 0 60px;
+}
+.depoiments-title small {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+}
+.depoiments-title:after {
+    content: "“";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 18px;
+    margin-left: -20px;
+    font-size: 84px;
+    line-height: 1;
+}
+.depoiments-description {
+    width: 615px;
+    line-height: 2;
+    display: inline-block;
+}
+
+.slick-next,
+.slick-prev{
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+.slick-next:hover,
+.slick-prev:hover{
+    transition: ease 1s;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.depoiments-list .slick-next, .depoiments-list .slick-prev {
+    font-size: 150px;
+}
+
+.depoiments-list{
+    display: flex;
+    justify-content: space-between;
+}
