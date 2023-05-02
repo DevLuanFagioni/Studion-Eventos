@@ -1,12 +1,14 @@
-# Studion Eventos
+# Studion Eventos 👀
 
-Website de eventos 
+## 🌐 Deploy 
+
+https://fagioni-studion-eventos.netlify.app
 
 ## 🛠️ Construído com
 
-* - HTML
-* - CSS
-* - JS
+* HTML
+* CSS
+* JS
 
 Ferramentas: Slick
 
